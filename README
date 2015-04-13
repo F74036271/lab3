@@ -1,0 +1,30 @@
+Probblem A
+	compile: g++ -o lab3 main.cpp
+	execution: ./lab3
+Problem B
+	//size=1000
+	sort(): 0 seconds
+	v1/v2 are different.
+	insertion_sort(): 0.01 seconds
+	v1/v2 are the same.
+
+	//size=10000
+	sort(): 0 seconds
+	v1/v2 are different.
+	insertion_sort(): 1.28 seconds
+	v1/v2 are the same.
+
+	//size=10000
+	sort(): 0.04 seconds
+	v1/v2 are different.
+	insertion_sort(): 128.17 seconds
+	v1/v2 are the same.
+
+	//size=100000
+	sort(): 0.52 seconds
+	v1/v2 are different.
+	insertion_sort(): 12820.7 seconds
+	v1/v2 are the same.
+
+	O(nlogn) and O(n^2) means the running time of each algorithm.
+	Comparing the result of sort() and insertion_sort(), we can find that the running time of insertion_sort() grows more obviously than sort().
